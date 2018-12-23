@@ -1,13 +1,15 @@
 {
   "settings": {
-    "name": "Site-12-23_1203 info #",
+    "name": "Site-12-23_1203 info",
     "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {},
       "additionalSetColors": [
-        "#37383e"
+        "#37383e",
+        "#d70000",
+        "#2e0303"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -19,8 +21,9 @@
     "gdpr": "",
     "google-analytics": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 5,
-    "versionPublish": "4.8.8"
+    "uniqCompNum": 9,
+    "versionPublish": "4.8.8",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -53,7 +56,7 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": 0.5
           },
-          "title": "nur Frauen<br>BB<br><br>nur 33602 Bielefeld \r<div><br></div>",
+          "title": "Frauen<br>BB<br>Nür 33602 Bielefeld",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Download Now</a> ",
           "alias": "purity/components",
@@ -66,8 +69,8 @@
         {
           "_params": {
             "showTitle": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "3",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -77,7 +80,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "Contact Form",
+          "title": "Contact Form and &nbsp;register&nbsp;<br>Kontaktformular und Registrierung",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">uns ok</a>",
           "form": {
             "action": "boeker98@gmail.com",
@@ -93,12 +96,12 @@
               "email": {
                 "visible": true,
                 "title": "Email",
-                "customTitle": "Email*"
+                "customTitle": "Telefonnummer@mail.de  Telefonnummer* Phone number * Email*"
               },
               "phone": {
                 "visible": true,
                 "title": "Phone",
-                "customTitle": "Telefonnummer*"
+                "customTitle": " Email*"
               },
               "message": {
                 "title": "Message",
@@ -160,7 +163,7 @@
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">uns ok</a>",
           "text1": "<strong>Address&nbsp;</strong>Adresse<br>33602 Bielefeld\n<br><br>\n<strong>Contacts&nbsp;</strong>Kontakte<br>\nEmail: support@<br><br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"https://mobirise.com/\">Website builder</a>&nbsp;&nbsp;<a href=\"https://mobirise.com/mobirise-free-win.zip\" style=\"background-color: rgb(55, 56, 62); font-size: 1rem;\">Download for Windows</a></li></ul>",
+          "text2": "<strong>Links</strong><ul><li>mobirise&nbsp;<a href=\"https://mobirise.com/\" target=\"_blank\">Website builder</a>&nbsp;<a href=\"https://mobirise.com/mobirise-free-win.zip\" target=\"_blank\">&nbsp;Download for Windows</a></li><li><a href=\"https://github.com/bastibond/000001\" target=\"_blank\">github.bastibond/000001</a></li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "boeker98@gmail.com",
@@ -181,7 +184,7 @@
               "phone": {
                 "visible": true,
                 "title": "Phone",
-                "customTitle": "telefonnummer"
+                "customTitle": "Telefonnummer* Phone number *"
               },
               "message": {
                 "title": "Message",
@@ -216,13 +219,51 @@
             }
           },
           "text1": "<strong>Address&nbsp;</strong>Adresse<br>33602 Bielefeld\n<br><br>\n<strong>Contacts&nbsp;</strong>Kontakte<br>\nEmail: support@<br><br>",
-          "text2": "<strong>Links</strong><ul><li><a href=\"https://mobirise.com/\">Website builder</a>&nbsp;&nbsp;<a href=\"https://mobirise.com/mobirise-free-win.zip\" style=\"background-color: rgb(55, 56, 62); font-size: 1rem;\">Download for Windows</a></li></ul>",
+          "text2": "<strong>Links</strong><ul><li>mobirise&nbsp;<a href=\"https://mobirise.com/\" target=\"_blank\">Website builder</a>&nbsp;&nbsp;<a href=\"https://mobirise.com/mobirise-free-win.zip\" style=\"background-color: rgb(55, 56, 62); font-size: 1rem;\" target=\"_blank\">Download for Windows</a></li><li><a href=\"https://github.com/bastibond/000001\" target=\"_blank\">github.bastibond/000001</a></li></ul>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
           "_anchor": "contacts2-1"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e0303",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": true,
+            "twitter": true,
+            "google": true
+          },
+          "text": "<b><i>Share This Page! Teile diese Seite!</i></b>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-7"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "(c)Bastian.o &nbsp;&nbsp;",
+          "meta": "2018 &nbsp;---23.12.2018",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-8"
         }
       ]
     }
